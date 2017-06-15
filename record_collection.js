@@ -26,7 +26,6 @@ var collection = {
     }
 };
 // Keep a copy of the collection for tests
-// Keep a copy of the collection for tests
 var collectionCopy = JSON.parse(JSON.stringify(collection));
 // Only change code below this line
 function updateRecords(id, prop, value) {
