@@ -8,7 +8,6 @@ var Person = function(firstAndLast) {
         return fullName.split(" ")[0];
     };
 
-
     this.getLastName = function() {
         return fullName.split(" ")[1];
     };
